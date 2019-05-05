@@ -1,11 +1,11 @@
 <?php
 
-require 'dbh.inc.php';
+require 'includes/dbh.inc.php';
 
 // defensive programming, exit the program early if something is wrong
 // remember to use the ‘exit()’ function to kill the program.
   if (!isset($_SESSION['userId'])) {
-        echo readfile("podpage.html");
+        readfile("podpage.html");
         exit();
       }
 
