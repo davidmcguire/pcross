@@ -7,11 +7,11 @@
 	<main>
 		<?php 
 			if (isset($_SESSION['userId'])) {
-				echo readfile("podpage.html");
+				readfile("podpage.html");
 			}
 
 			else {
-				echo readfile("podpagefresh.html");
+				readfile("podpagefresh.html");
 			}
 		 ?>
 	</main>
