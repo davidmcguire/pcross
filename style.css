@@ -300,12 +300,66 @@ header .nav-logout form button {
 }
 
 
+.feed-form {
+    text-align: center;
+}
+
+.feed-form textarea {
+    display: inline-block;
+    margin-top:20px;
+}
+
+.comments {
+    text-align: center;
+}
+
+.comments table {
+    display: inline-block;
+    margin-top:20px;
+}
+
+.comments body {
+    font-size: 5px;
+}
 
 
+.main {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.main li {
+    list-style: none;
+}
+
+.main a {
+    font-size: 16px;
+    color: #111;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.main a:hover {
+    background-color: #ccc;
+}
 
 
-
-
+.footer {
+    padding: 30px;
+    border: 2px solid orange;
+    margin: 100px; 
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer p {
+    line-height: 20px;
+}
+.footer li {
+    line-height: 20px;
+}
 
 
 

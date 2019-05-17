@@ -8,7 +8,7 @@ session_start();
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta description="podcrossing" content="podcrossing around the world.">
+	<meta description="podcrossing" content="podcrossing around the world">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
