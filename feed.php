@@ -5,6 +5,11 @@ include_once('header.php');
 include_once('includes/functions.php');
  
 $_SESSION['userid'] = 1;
+
+  if (!isset($_SESSION['userId'])) {
+        readfile("podpagefresh.html");
+        exit();
+      }
 ?>
 
 <div>
@@ -16,15 +21,10 @@ $_SESSION['userid'] = 1;
 			</ul>
 </div>
 
-<?php
 
-// defensive programming, exit the program early if something is wrong
-// remember to use the ‘exit()’ function to kill the program.
-  if (!isset($_SESSION['userId'])) {
-        readfile("podpagefresh.html");
-        exit();
-      }
-?>
+
+
+
 <div class="feed-form">
 <form method='post' action='includes/add.php'>
 <textarea name='body' rows='3' cols='40' placeholder="Leave a message..."></textarea>
@@ -43,7 +43,6 @@ if (count($posts)){
 <?php
 foreach ($posts as $key => $list){
     echo "<tr valign='top'>\n";
-    echo "<td>".$list['userid'] ."</td>\n";
     echo "<td>".$list['body'] ."<br/>\n";
     echo "<small>".$list['stamp'] ."</small></td>\n";
     echo "</tr>\n";
