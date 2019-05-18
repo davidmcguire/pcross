@@ -4,20 +4,27 @@ require 'includes/dbh.inc.php';
 include_once('header.php');
 include_once('includes/functions.php');
  
-$_SESSION['userid'] = 1;
+$_SESSION['userid'] = 0;
 
-  if (!isset($_SESSION['userId'])) {
-        readfile("podpagefresh.html");
-        exit();
-      }
 ?>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Podcross</title>
+</head>
+<body>
 
 <div>
 		<div class="main">
 			<ul>
-				<li><a href="https://docs.google.com/forms/d/1OI1HfL3ri-gFj3ACxYYqiXfCQyGc-vzMv5jKvGPnA4Q">Register Your Show</a></li>
-				<li><a href="https://go.glideapps.com/play/E8Z15Y2OTXS3q36wQzxD">Search Network Shows</a></li>
-				<li><a href="https://docs.google.com/spreadsheets/d/1JY6naOLaKtuWMVIufJj7NS0f9hJ2s1aP2JwuYNF3FYM">Show Complete Database (Google Sheets)</a></li>
+				<li><a href="https://docs.google.com/forms/d/1OI1HfL3ri-gFj3ACxYYqiXfCQyGc-vzMv5jKvGPnA4Q" target="_blank">Register Your Show</a></li>
+				<li><a href="https://go.glideapps.com/play/E8Z15Y2OTXS3q36wQzxD" target="_blank">Search Network Shows</a></li>
+				<li><a href="https://docs.google.com/spreadsheets/d/1JY6naOLaKtuWMVIufJj7NS0f9hJ2s1aP2JwuYNF3FYM" target="_blank">Show Complete Database (Google Sheets)</a></li>
 			</ul>
 </div>
 
@@ -100,7 +107,10 @@ foreach ($posts as $key => $list){
 </div>
 
 
-	
+	</body>
+</b>
+
+</html>
 
 	
 

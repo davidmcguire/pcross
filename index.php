@@ -6,8 +6,15 @@
 
 	<main>
 		<?php 
+
+		ob_start(); // ensures anything dumped out will be caught
+
+		$url = "feed.php";
+
+	
+
 			if (isset($_SESSION['userId'])) {
-				readfile("feed.php");
+				header( "Location: $url" );
 			}
 
 			else {
