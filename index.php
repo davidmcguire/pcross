@@ -11,7 +11,11 @@
 
 		$url = "feed.php";
 
-	
+		// clear out the output buffer
+		while (ob_get_status()) 
+		{
+		    ob_end_clean();
+		}
 
 			if (isset($_SESSION['userId'])) {
 				header( "Location: $url" );
