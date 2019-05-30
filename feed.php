@@ -20,16 +20,22 @@ $_SESSION['userid'] = 0;
 <body>
 
 <div>
+
+	
+
 		<div class="main">
+			<h4><a href = "https://podcross.memberful.com/checkout?plan=38976m" target="_blank">BECOME A FULL MEMBER (US $1 / MONTH)</h4>
+			<p>- join the official Podcross Slack Group</p>
+			<p>- access to professional strategic consultation</p>
+			<p>- discounts on industry software and tools</p></a><br>
+
+
 			<ul>
 				<li><a href="https://docs.google.com/forms/d/1OI1HfL3ri-gFj3ACxYYqiXfCQyGc-vzMv5jKvGPnA4Q" target="_blank">Register Your Show</a></li>
 				<li><a href="https://go.glideapps.com/play/E8Z15Y2OTXS3q36wQzxD" target="_blank">Search Network Shows</a></li>
-				<li><a href="https://docs.google.com/spreadsheets/d/1JY6naOLaKtuWMVIufJj7NS0f9hJ2s1aP2JwuYNF3FYM" target="_blank">Show Complete Database (Google Sheets)</a></li>
+			
 			</ul>
 </div>
-
-
-
 
 
 <div class="feed-form">
@@ -38,7 +44,7 @@ $_SESSION['userid'] = 0;
 <p><input type='submit' value='submit'/></p>
 </form>
 </div>
-
+	
 
 <?php
 $posts = show_posts($_SESSION['userid']);
@@ -86,19 +92,6 @@ foreach ($posts as $key => $list){
 			<p>----</p>
 
 			<p><a href="https://wearestabl.com/introducing-podcross/">Here's a blog post</a> explaining why I started Podcross.</p>
-
-			<p>This service is free!</p> 
-
-			<p>We're starting small, however, we're trying to make this service much (much) better for everyone. If you believe in this project and what it can do for independent podcast producers, please consider "<a href="https://www.buymeacoffee.com/podcross">buying me a coffee</a>" and I'll invest the money back into Podcross.</p>
-
-			<p>Let's build this thing!</p>
-
-			<style>.bmc-button img{width: 27px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-flex !important;color:#FFFFFF !important;background-color:#FF813F !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 0px 9px !important;font-size: 17px !important;letter-spacing:-0.08px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Lato', sans-serif !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/podcross"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
-
-
-			<p>Let me know how you get on and I'll post your collaborations on the <a href="https://go.glideapps.com/play/E8Z15Y2OTXS3q36wQzxD" target="_blank">app</a>. And do you want any more features? Open to feedback!</p>
-
-			<p>There's no official support as such (for the moment) but feel free to reach out to me on <a href="https://twitter.com/dguigsy">Twitter</a></p>
 
 			<b><p>Note about GDPR: your details will not be passed to any third parties.</p><b>
 

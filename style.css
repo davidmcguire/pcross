@@ -171,9 +171,6 @@ header .nav-login {
 
 }
 
-header .nav-logout {
-    float: right;
-}
 
 header .nav-login form {
     float: left;
@@ -223,6 +220,62 @@ header .nav-login a {
     color: #111;
     line-height: 63px;
     cursor: pointer;
+}
+
+header .membership {
+    position: absolute;
+    left: 190px;
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 60px;
+    background-color: none;
+    font-family: helvetica;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+header .membership:hover {
+  background-color: #FF8C00; /* Orange */
+  color: black;
+}
+
+header .membershiptwo {
+    position: absolute;
+    left: 190px;
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 135px;
+    background-color: none;
+    font-family: helvetica;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+header .membershiptwo:hover {
+  background-color: #FF8C00; /* Orange */
+  color: black;
+}
+
+
+header .nav-logout {
+    float: right;
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-family: helvetica;
+    border: 2px solid #FF8C00;
+}
+
+header .nav-logout:hover {
+  background-color: #FF8C00; /* Orange */
+  color: white;
 }
 
 header .nav-logout form button:hover {
@@ -311,6 +364,7 @@ header .nav-logout form button {
 
 .comments {
     text-align: center;
+    font-family: helvetica;
 }
 
 .comments table {
@@ -320,6 +374,10 @@ header .nav-logout form button {
 
 .comments body {
     font-size: 5px;
+}
+
+.comments small {
+    font-size: x-small;
 }
 
 
@@ -345,6 +403,23 @@ header .nav-logout form button {
     background-color: #ccc;
 }
 
+.main p {
+    text-align: center;
+    list-style-type: none;
+    background-color: #f1f1f1;
+  
+}
+
+.mainpoint {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+}
+
+.mainpoint li {
+    list-style: none;
+}
+
 
 .footer {
     padding: 30px;
@@ -362,8 +437,24 @@ header .nav-logout form button {
 }
 
 
+.benefits {
+    margin-top: 200px;
+}
 
+.benefits h4 {
+    text-align: center;
+ 
+}
 
+.benefits p {
+    text-align: center;
+ 
+}
+
+.benefits button {
+    text-align: center;
+ 
+}
 
 
 

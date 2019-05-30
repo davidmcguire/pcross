@@ -12,13 +12,33 @@ session_start();
 	<meta name="viewpoint" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript">
+  window.MemberfulOptions = {site: "https://podcross.memberful.com"};
+
+  (function() {
+    var s   = document.createElement('script');
+
+    s.type  = 'text/javascript';
+    s.async = true;
+    s.src   = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';
+
+    setup = function() { window.MemberfulEmbedded.setup(); }
+
+    s.addEventListener("load", setup, false);
+
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+</script>
+
+
 </head>
 
 <body>
 
 	<header class="main-wrapper">
 		<nav>
-			<a href="index.php">
+			<a href="feed.php">
 				<img src="img/pc.png" alt="logo">
 			</a>
 
@@ -30,6 +50,7 @@ session_start();
 				echo '<form class="nav-logout" action="includes/logout.inc.php" method="post">
 					<button type="submit" name="logout-submit">Logout</button>
 					</form>';
+					
 				}
 
 				else {
