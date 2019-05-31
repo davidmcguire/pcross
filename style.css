@@ -119,7 +119,7 @@ a {
 }
 
 body {
-    background-color: #e5dada;
+    background-color: #fff;
 }
 
 header nav {
@@ -161,9 +161,11 @@ header .signup-button {
 }
 
 header nav a img {
-    float: right;
-    padding-right: 230px;
-    padding-bottom: 5px;
+    float: center;
+    height: 200px;
+    width: 15%;
+    height: 15%;
+
 }
 
 header .nav-login {
@@ -267,20 +269,15 @@ header .membershiptwo:hover {
 
 header .nav-logout {
     float: right;
-    border-radius: 8px;
-    padding: 14px 40px;
-    font-family: helvetica;
-    border: 2px solid #FF8C00;
+
 }
 
-header .nav-logout:hover {
-  background-color: #FF8C00; /* Orange */
-  color: white;
+
+header .nav-logout form {
+    float: right;
+    padding-top: 15px;
 }
 
-header .nav-logout form button:hover {
-    background-color: #ccc;
-}
 
 header .nav-logout form button {
     float: right;
@@ -294,6 +291,7 @@ header .nav-logout form button {
     color: #111;
     cursor: pointer;
 }
+
 
 .main-container {
     padding-top: 40px;
@@ -406,7 +404,7 @@ header .nav-logout form button {
 .main p {
     text-align: center;
     list-style-type: none;
-    background-color: #f1f1f1;
+    background-color: #e5dada;
   
 }
 
