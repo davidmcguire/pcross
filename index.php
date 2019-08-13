@@ -2,12 +2,16 @@
 	include_once 'header.php';
 ?>
 
-
-
 	<main>
 		<?php 
+
+		ob_start(); // ensures anything dumped out will be caught
+
+		$url = "feed.php";
+
+
 			if (isset($_SESSION['userId'])) {
-				readfile("podpage.html");
+				header( "Location: $url" );
 			}
 
 			else {
